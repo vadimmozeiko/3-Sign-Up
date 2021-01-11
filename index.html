@@ -7,6 +7,7 @@
     <title>Sign Up</title>
 </head>
 <body>
+    <div class="background"></div>
     <main class="container">
         <div class="left-column">
             <div class="title">Sign up</div>
@@ -18,18 +19,18 @@
             <div class="close">X</div>
             <form class="form">
               <label for="username">Username
-                  <input class="input" type="text" name="username" placeholder="Enter username">
+                  <input class="input" type="text" name="username" placeholder="Enter username" required>
                 </label>
               <label for="email">E-mail
-                  <input class="input" type="email" name="email" placeholder="Enter your email">
+                  <input class="input" type="email" name="email" placeholder="Enter your email" required>
                 </label>
               <label for="password">Password
-                  <input class="input" type="password" name="password" placeholder="Password">
+                  <input class="input" type="password" name="password" placeholder="Password" required>
                 </label>
               <label for="repassword">Repeat password
-                  <input class="input" type="password" name="repassword" placeholder="Repeat password">
+                  <input class="input" type="password" name="repassword" placeholder="Repeat password" required>
                 </label>
-                <a class="button" href="#">Get started</a> <span>or</span> <a class="sign-in" href="#">Sign in</a>
+                <button class="button" href="#">Get started</button> or <a class="sign-in" href="#">Sign in</a>
             </form>
         </div>
     </main>
