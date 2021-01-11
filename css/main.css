@@ -95,6 +95,11 @@ span {
     cursor: pointer;
 }
 
+.close:hover {
+    transform: translateY(-5%);
+    transition: .1s linear;
+}
+
 .form {
     display: inline-block;
     width: 100%;
@@ -132,7 +137,11 @@ span {
     margin-right: 20px;
     outline: none;
     border: none;
+}
 
+.button:hover {
+    background-color: #6B35AB;
+    transition: .2s linear;
 }
 
 .sign-in {
