@@ -1,0 +1,26 @@
+.right-column {
+    display: inline-block;
+    width: 60%;
+    float: right;
+    background-color: #fff;
+    padding: 60px;
+    position: relative;
+}
+
+.close {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 54px; /* norint centruot pagal srifta nuimam 5%*/
+    cursor: pointer;
+}
+
+.close:hover {
+    transform: translateY(-5%);
+    transition: .1s linear;
+}
